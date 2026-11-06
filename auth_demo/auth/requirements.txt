@@ -1,0 +1,19 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic[email]>=2.7
+pydantic-settings>=2.3
+
+# Database
+sqlalchemy
+psycopg[binary]
+
+# Authentication
+pwdlib[argon2]
+pyjwt
+
+# Environment
+python-dotenv
+
+# Testing
+pytest>=8.0
+httpx>=0.27
